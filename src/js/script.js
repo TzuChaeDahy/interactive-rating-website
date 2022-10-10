@@ -66,7 +66,11 @@ function displayRatingPage(container) {
       "transition-colors",
       "cursor-pointer",
       "hover:bg-project-700",
-      "hover:text-project-100"
+      "hover:text-project-100",
+      "focus:ring-2",
+      "focus:ring-project-700",
+      "focus:offset-2",
+      "focus:ring-offset-project-500"
     );
     const input = document.createElement("input");
     input.setAttribute("type", "radio");
@@ -95,7 +99,11 @@ function displayRatingPage(container) {
     "cursor-pointer",
     "transition-colors",
     "hover:bg-project-100",
-    "hover:text-project-700"
+    "hover:text-project-700",
+    "focus:ring-2",
+    "focus:ring-project-100",
+    "focus:ring-offset-2",
+    "focus:ring-offset-project-500"
   );
 
   main.appendChild(img);
