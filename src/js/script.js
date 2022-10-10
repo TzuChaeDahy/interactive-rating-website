@@ -34,7 +34,7 @@ function displayRatingPage(container) {
     "bg-project-500"
   );
   const img = document.createElement("img");
-  img.setAttribute("src", "./images/icon-star.svg");
+  img.setAttribute("src", "./src/images/icon-star.svg");
   img.setAttribute("alt", "A Orange Star Icon");
   img.classList.add("w-12", "p-3", "rounded-full", "bg-project-400");
   const h1 = document.createElement("h1");
@@ -181,7 +181,7 @@ function displayThankPage(container) {
   );
 
   const img = document.createElement("img");
-  img.setAttribute("src", "./images/illustration-thank-you.svg");
+  img.setAttribute("src", "./src/images/illustration-thank-you.svg");
   img.setAttribute("alt", "Icon of a Cellphone Network");
   const h3 = document.createElement("h3");
   h3.classList.add(
